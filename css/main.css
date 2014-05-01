@@ -1,22 +1,17 @@
-
+body {
+    padding-top: 50px;
+    /*padding-bottom: 20px;*/
+}
 
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
+#headerContainer{
+	background:url("../files/design/headerBackgr.png") repeat-x;
+	height:300px;
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+#footerContainer{
+	background:url("../files/design/footerBackgr.gif") repeat;
+	clear:both;
+}
