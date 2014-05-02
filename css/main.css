@@ -11,7 +11,13 @@ body {
 	background-image:-moz-linear-gradient(#12359B, #A0D9E9);
 	background-image:-webkit-linear-gradient(#12359B, #A0D9E9);
 	background-image:-o-linear-gradient(#12359B, #A0D9E9);
-	background-image:-ms-linear-gradient(#12359B, #A0D9E9);	
+	background-image:-ms-linear-gradient(#12359B, #A0D9E9);
+	overflow:hidden;
+	position:relative;	
+}
+#headerContent{
+	position:relative;
+	z-index: 5;
 }
 #eventEdition, #eventDate{
 	border:solid 3px #FFFFFF;
@@ -23,8 +29,7 @@ body {
 }
 #eventEdition{
 	background:#00B8F1;	
-	font-size:24px;
-	width:190px;
+	font-size:1em;
 }
 #eventEdition span{
 	text-transform:lowercase;
@@ -32,11 +37,29 @@ body {
 }
 #eventDate{
 	background:#FB3099;
-	font-size:36px;
-	width:375px;
-}
+	font-size:2em;
 }
 #footerContainer{
 	background:#B0D243;
 	clear:both;
+}
+
+
+#cloud1{
+	position:absolute;
+	top:100px;
+	left:-432px;
+	z-index: 2;
+}
+#cloud2{
+	position:absolute;
+	top:100px;
+	left:-410px;
+	z-index: 1;
+}
+#cloud3{
+	position:absolute;
+	top:100px;
+	left:-485px;
+	z-index: 3;
 }
