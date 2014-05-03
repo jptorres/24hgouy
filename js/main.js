@@ -12,6 +12,6 @@ function cloudAnimation(){
 }
 
 function cloud1(){
-	$("#cloud1").animate({left: widthWindow}, 30000).animate({left:"-400px"}, 0);
+	$("#cloud1").animate({left: widthWindow}, 30000).animate({left:"-350px"}, 0);
 	setTimeout("cloudAnimation()", 1000);
 }
