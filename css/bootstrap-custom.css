@@ -1,0 +1,6 @@
+.navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
+    background-color: #FFFFFF;
+}
+.navbar-default .navbar-toggle {
+    border-color: #FFFFFF;
+}

@@ -1,5 +1,5 @@
 body {
-    padding-top: 50px;
+    /*padding-top: 50px;*/
     /*padding-bottom: 20px;*/
 }
 
@@ -14,6 +14,7 @@ body {
 	background-image:-ms-linear-gradient(#12359B, #A0D9E9);
 	overflow:hidden;
 	position:relative;	
+	margin-bottom:0;
 }
 #headerContent{
 	position:relative;
@@ -40,8 +41,20 @@ body {
 	font-size:2.5em;
 	border-radius:80px 80px 0px 80px;
 }
+#mainNav{
+	background-image:linear-gradient(#BDEF0E, #A6D30B);
+	background-image:-moz-linear-gradient(#BDEF0E, #A6D30B);
+	background-image:-webkit-linear-gradient(#BDEF0E, #A6D30B);
+	background-image:-o-linear-gradient(#BDEF0E, #A6D30B);
+	background-image:-ms-linear-gradient(#BDEF0E, #A6D30B);
+}
 #footerContainer{
-	background:#B0D243;
+	background-image:linear-gradient(#BDEF0E, #A6D30B);
+	background-image:-moz-linear-gradient(#BDEF0E, #A6D30B);
+	background-image:-webkit-linear-gradient(#BDEF0E, #A6D30B);
+	background-image:-o-linear-gradient(#BDEF0E, #A6D30B);
+	background-image:-ms-linear-gradient(#BDEF0E, #A6D30B);
+	margin-top:30px;
 	clear:both;
 }
 
