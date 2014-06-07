@@ -13,6 +13,7 @@
         <link rel="stylesheet" href="css/bootstrap.min.css">
         <link rel="stylesheet" href="css/bootstrap-theme.min.css">
         <link rel="stylesheet" href="css/bootstrap-custom.css">
+        <link rel="stylesheet" href="css/TimeCircles.css">
         <link rel="stylesheet" href="css/main.css">
 
         <script src="js/vendor/modernizr-2.6.2-respond-1.1.0.min.js"></script>
@@ -23,7 +24,8 @@
         <![endif]-->
     
     <!-- Main jumbotron for a primary marketing message or call to action -->
-    <div class="jumbotron" id="headerContainer">
+    
+    <header>
       <img id="cloud1" class="img-responsive" src="files/design/nuage1.png" alt="" />
       <img id="cloud2" class="img-responsive" src="files/design/nuage2.png" alt="" />
       <img id="cloud3" class="img-responsive" src="files/design/nuage3.png" alt="" />
@@ -33,16 +35,24 @@
             <a id="logo24h" href=""><img class="img-responsive" src="files/img/logo24h.png" alt="Logo" /></a>
           </div>
            <div class="col-md-4">
-            <p id="eventEdition">25<span>è</span> édition</p>
-            <p id="eventDate">12 & 13 avril 2014</p>
+            <p id="eventEdition">26<span>è</span> édition</p>
+            <p id="eventDate">11 & 12 avril<br>2015</p>
           </div>
-           <div class="col-md-4">
-            
-          </div>
-        </div>      
-        
+          
+          <div class="row-md-2">        
+           <div class="col-md-2">
+           	<div id="daysCountdown" data-date="2015-04-11 13:00:00"></div>
+           </div>
+   		  </div>
+   		  
+   		  <div class="row-md-2">        
+           <div class="col-md-3">
+           	<div id="hoursCountdown" data-date="2015-04-11 13:00:00"></div>
+           </div>
+   		  </div>
+        </div>       
       </div>
-    </div>
+    </header>
     
 	<nav id="mainNav" class="navbar navbar-default" role="navigation">
 	  <div class="container">
@@ -53,15 +63,15 @@
 	        <span class="icon-bar"></span>
 	        <span class="icon-bar"></span>
 	      </button>
-	      <a class="navbar-brand" href="#">24h vélo</a>
+	      <a class="navbar-brand active" href="#">24h vélo</a>
 	    </div>
 	    <!-- Collect the nav links, forms, and other content for toggling -->
 	    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 	      <ul class="nav navbar-nav">
-	        <li><a class="" href="#">Home</a></li>
 	        <li><a href="#">Organisation</a></li>
 	        <li><a href="#">Règlement</a></li>
 	        <li><a href="#">Sponsors</a></li>
+	        <li><a href="#">Médias</a></li>
 	        <li><a href="#">Inscription</a></li>
 	        <li><a href="#">Contacts</a></li>
 	      </ul>
@@ -73,51 +83,79 @@
     <div class="container">
       <!-- Example row of columns -->
       <div class="row">
-        <div class="col-md-12">
-          <h2>Les 24h vélo, c'est quoi?</h2>
+        <div class="first col-md-8">
+          <h1>Les 24h vélo, c'est quoi?</h1>
           <p>Les 24h vélo folkloriques de Gouy-lez-Piéton sont organisés pour la 25ème fois dans notre village par les sections guides et scoutes des Unités de la 20ème Hainaut-Est et de la 14ème Terril-Ouest. A cette occasion, de nombreuses équipes de 6 à 15 personnes concourent durant 24h consécutives afin de gagner de nombreux prix et trophées.</p>
+          <a class="btn btn-info btn-lg" role="button">S'inscrire</a>
         </div>
-        <div class="col-md-12">
+        <div class="col-md-8">
           <h2>Pour qui?</h2>
           <p>Vous êtes responsable d'un groupe de jeunes, d'une section scoute, guide ou patro, d'un club de sport ou bien même du groupe des vétérans de 14-18 ? Vous êtes un habitant des environs et vous avez envie de participer à cette aventure avec votre groupe d'amis ? N'hésitez pas à venir concourir avec de nombreux autres afin de vivre un moment inoubliable avec nous!</p>
        </div>
        <div class="col-md-12">
  		<h2>Le programme</h2>
-			<div class="col-md-6">
+			<div class="col-md-4">
 				<h3>Samedi 12 AVRIL :</h3>
 				<p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
 			</div>
-			<div class="col-md-6">
+			<div class="col-md-4">
 				<h3>Dimanche 13 AVRIL :</h3>
 					<p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
 			</div>
 		</div>
-		<div class="col-md-12">
+		<div class="col-md-8">
           <h2>4 catégories!</h2>
           <p>LDonec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
         </div>
-        <div class="col-md-12">
+        <div class="col-md-8">
           <h2>Prix?</h2>
           <p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
        </div>
       
     </div> <!-- /container -->
     
-    <div id="footerContainer">
+    <footer>
       <div class="container">
-	    <footer>
-	      <p>&copy; 24h vélo - Gouy-Lez-Piéton. Created by jptorres.be - 2014</p>
-	    </footer>
+	    
+	    <div class="row">
+          <div class="col-md-4">
+            <div class="fb-like-box" data-href="https://www.facebook.com/24hGouy" data-colorscheme="light" data-show-faces="true" data-header="false" data-stream="false" data-show-border="true"></div>
+          </div>
+           <div class="col-md-4">
+            <div class="fb-like-box" data-href="https://www.facebook.com/24hGouy" data-colorscheme="light" data-show-faces="true" data-header="false" data-stream="false" data-show-border="true"></div>
+          </div>
+          <div class="col-md-4">
+            <div class="fb-like-box" data-href="https://www.facebook.com/24hGouy" data-colorscheme="light" data-show-faces="true" data-header="false" data-stream="false" data-show-border="true"></div>
+          </div>
+          <div class="col-md-12">
+            <p class="copyright">&copy; 24h vélo - Gouy-Lez-Piéton. Created by jptorres.be - 2014</p>
+          </div>
+        </div>	    
       </div>
-  	</div>        
+  	</footer>        
     
     	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
         
         <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.0.min.js"><\/script>')</script>
 
         <script src="js/vendor/bootstrap.min.js"></script>
+        
+        <script src="js/TimeCircles.js"></script>
+        
+        <script src="js/plugins.js"></script>
 
         <script src="js/main.js"></script>
+        
+        <div id="fb-root"></div>
+	<script>
+		(function(d, s, id) {
+		  var js, fjs = d.getElementsByTagName(s)[0];
+		  if (d.getElementById(id)) return;
+		  js = d.createElement(s); js.id = id;
+		  js.src = "//connect.facebook.net/fr_FR/sdk.js#xfbml=1&version=v2.0";
+		  fjs.parentNode.insertBefore(js, fjs);
+		}(document, 'script', 'facebook-jssdk'));
+	</script>
 
         <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
         <script>

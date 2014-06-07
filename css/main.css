@@ -4,9 +4,22 @@ body {
 }
 
 /* ==========================================================================
-   Author's custom styles
+                           Author's custom styles
    ========================================================================== */
-#headerContainer{
+h1{
+	color:#3B1E7C;
+}
+h2{
+	color:#3B1E7C;
+}
+h3{
+	color:#00B8F1;
+}
+
+/* ==========================================================================
+                                  HEADER
+   ========================================================================== */
+header{
 	background-image:linear-gradient(#12359B, #A0D9E9);
 	background-image:-moz-linear-gradient(#12359B, #A0D9E9);
 	background-image:-webkit-linear-gradient(#12359B, #A0D9E9);
@@ -15,50 +28,9 @@ body {
 	overflow:hidden;
 	position:relative;	
 	margin-bottom:0;
+	padding-bottom: 48px;
+    padding-top: 48px;
 }
-#headerContent{
-	position:relative;
-	z-index: 5;
-}
-#eventEdition, #eventDate{
-	border:solid 3px #FFFFFF;
-	padding:20px;
-	color:#FFFFFF;
-	text-align:center;
-	text-transform:uppercase;
-}
-#eventEdition{
-	background:#00B8F1;	
-	font-size:2em;
-	border-radius:40px 40px 40px 0px;
-}
-#eventEdition span{
-	text-transform:lowercase;
-	font-size:1em;
-}
-#eventDate{
-	background:#FB3099;
-	font-size:2.5em;
-	border-radius:80px 80px 0px 80px;
-}
-#mainNav{
-	background-image:linear-gradient(#BDEF0E, #A6D30B);
-	background-image:-moz-linear-gradient(#BDEF0E, #A6D30B);
-	background-image:-webkit-linear-gradient(#BDEF0E, #A6D30B);
-	background-image:-o-linear-gradient(#BDEF0E, #A6D30B);
-	background-image:-ms-linear-gradient(#BDEF0E, #A6D30B);
-}
-#footerContainer{
-	background-image:linear-gradient(#BDEF0E, #A6D30B);
-	background-image:-moz-linear-gradient(#BDEF0E, #A6D30B);
-	background-image:-webkit-linear-gradient(#BDEF0E, #A6D30B);
-	background-image:-o-linear-gradient(#BDEF0E, #A6D30B);
-	background-image:-ms-linear-gradient(#BDEF0E, #A6D30B);
-	margin-top:30px;
-	clear:both;
-}
-
-
 #cloud1{
 	position:absolute;
 	top:105px;
@@ -76,4 +48,90 @@ body {
 	bottom:10px;
 	right:170px;
 	z-index: 1;
+}
+#headerContent{
+	position:relative;
+	z-index: 5;
+}
+#logo24h{
+	display:block;
+	margin-top:7px;
+	padding-bottom:7px;
+}
+#eventEdition, #eventDate{
+	border:solid 3px #FFFFFF;
+	padding:20px;
+	color:#FFFFFF;
+	text-align:center;
+	text-transform:uppercase;
+}
+#eventEdition{
+	background:#00B8F1;	
+	font-size:2em;
+	border-radius:40px 40px 40px 0px;
+	margin-top:7px;
+	margin-bottom:15px;
+	
+}
+#eventEdition span{
+	text-transform:lowercase;
+	font-size:1em;
+}
+#eventDate{
+	background:#FB3099;
+	font-size:2.5em;
+	border-radius:80px 80px 0px 80px;
+	margin-bottom:7px;
+}
+
+/* ==========================================================================
+                                 NAVIGATION
+   ========================================================================== */
+#mainNav{
+	background-image:linear-gradient(#BDEF0E, #A6D30B);
+	background-image:-moz-linear-gradient(#BDEF0E, #A6D30B);
+	background-image:-webkit-linear-gradient(#BDEF0E, #A6D30B);
+	background-image:-o-linear-gradient(#BDEF0E, #A6D30B);
+	background-image:-ms-linear-gradient(#BDEF0E, #A6D30B);
+}
+#mainNav ul li a{
+	font-size: 18px;
+}
+#mainNav ul li a:hover{
+	color: #FFFFFF;
+	background:#3B1E7C;
+}
+#mainNav .active{
+	color: #FFFFFF;
+	background:#3B1E7C;
+}
+
+
+/* ==========================================================================
+                                 CONTENT
+   ========================================================================== */
+.first{
+	margin-bottom:15px;
+}
+.first p{
+	font-size:18px;
+}
+
+/* ==========================================================================
+                                 FOOTER
+   ========================================================================== */
+footer{
+	background-image:linear-gradient(#BDEF0E, #A6D30B);
+	background-image:-moz-linear-gradient(#BDEF0E, #A6D30B);
+	background-image:-webkit-linear-gradient(#BDEF0E, #A6D30B);
+	background-image:-o-linear-gradient(#BDEF0E, #A6D30B);
+	background-image:-ms-linear-gradient(#BDEF0E, #A6D30B);
+	margin-top:30px;
+	clear:both;
+}
+footer .copyright{
+	text-align:center;
+}
+.fb-like-box{
+	background:#FFFFFF;
 }

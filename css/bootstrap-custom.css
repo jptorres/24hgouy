@@ -1,6 +1,17 @@
 .navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
-    background-color: #FFFFFF;
+    background-color: #3B1E7C;
+    border-color: #3B1E7C;
 }
 .navbar-default .navbar-toggle {
     border-color: #FFFFFF;
+}
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: #FFFFFF;
+}
+.navbar-brand{
+	font-size: 18px;
+}
+.navbar-brand:hover{
+	color: #FFFFFF !important;
+	background:#3B1E7C !important;
 }
