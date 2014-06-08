@@ -83,6 +83,14 @@ header{
 	border-radius:80px 80px 0px 80px;
 	margin-bottom:7px;
 }
+#daysCountdown .time_circles{
+	height:144px !important;
+}
+#hoursCountdown .time_circles{
+	height:120px !important;
+}
+
+
 
 /* ==========================================================================
                                  NAVIGATION
@@ -116,22 +124,60 @@ header{
 .first p{
 	font-size:18px;
 }
+.program p{
+	margin-bottom:4px;
+}
 
 /* ==========================================================================
                                  FOOTER
    ========================================================================== */
 footer{
+	margin-top:30px;
+	clear:both;
+}
+footer .copyright{
 	background-image:linear-gradient(#BDEF0E, #A6D30B);
 	background-image:-moz-linear-gradient(#BDEF0E, #A6D30B);
 	background-image:-webkit-linear-gradient(#BDEF0E, #A6D30B);
 	background-image:-o-linear-gradient(#BDEF0E, #A6D30B);
 	background-image:-ms-linear-gradient(#BDEF0E, #A6D30B);
-	margin-top:30px;
-	clear:both;
-}
-footer .copyright{
 	text-align:center;
+	padding:12px 0;
+	color:#3B1E7C;
+	width:100%;
+	clear:both;
+	margin:0 !important;
 }
 .fb-like-box{
-	background:#FFFFFF;
+	background: none repeat scroll 0 0 #00B8F1;
+    border: solid 3px #3B1E7C;
+    border-radius: 40px 40px 40px 0;
+    padding: 20px 0 20px 35px;
+}
+#sliderSponsors{
+	border: solid #FB3099 3px;
+    border-radius: 40px 40px 0 40px;
+	clear:both;
+	margin:50px 0;
+}
+.bxslider{
+	padding:0;
+}
+.bxslider li{
+	text-align:center;
+	padding:20px 0;
+}
+#affiche{
+	text-align: center;
+    clear: both;
+    border: solid #00B8F1 3px;
+    border-radius: 40px 40px 0 40px;
+    padding: 20px;
+	height:278px;
+}
+#affiche a{
+	display:block;
+}
+footer .col-md-4{
+	
 }

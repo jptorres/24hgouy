@@ -20,7 +20,7 @@ function cloud1(){
    /*countDown*/
 /*####################*/
 $("#daysCountdown").TimeCircles({
-	animation: "smooth",
+	animation: "thick",
 	circle_bg_color: "#3B1E7C",
 	fg_width: 0.06,
 	time: {
@@ -46,7 +46,7 @@ $("#daysCountdown").TimeCircles({
 	}
 });
 $("#hoursCountdown").TimeCircles({
-	animation: "smooth",
+	animation: "thick",
 	circle_bg_color: "#3B1E7C",
 	fg_width: 0.06,
 	time: {
@@ -69,4 +69,16 @@ $("#hoursCountdown").TimeCircles({
 	    	color: "#A6D30B"
 	    }
 	}
+});
+
+/*####################*/
+     /*Slider*/
+/*####################*/
+$('.bxslider').bxSlider({
+  auto: true,
+  mode: 'vertical',
+  speed: 1500,
+  randomStart: true,
+  pager:false,
+  controls:false	  	  
 });
